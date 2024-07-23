@@ -1,4 +1,4 @@
-import handleRemoteRequest from "../shares/api.js";
+import handleRemoteRequest from "/shares/api.js";
 
 const categories = document.querySelector("#sideBarCategories");
 const loadingElement = document.querySelector("#loading");
