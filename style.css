@@ -1,0 +1,83 @@
+body{
+    font-family:serif !important;
+    font-weight: 400;
+}
+#items-count {
+    top: -10px;
+    right: -10px;
+}
+.search-container {
+    max-width: 500px;
+    width: 100%;
+}
+.no-wrap {
+    white-space: nowrap;
+}
+.search-container input[type="search"] {
+    border-radius: 25px 0 0 25px;
+    border: none;
+    box-shadow: none;
+    padding: 8px 12px;
+    font-size: 14px;
+}
+.search-container button {
+    border-radius: 0 25px 25px 0;
+    border: none;
+    background-color: #D10024;
+    color: white;
+    padding: 8px 12px;
+    font-size: 14px;
+}
+.search-container button .fa-magnifying-glass {
+    background-color: #D10024;
+    color: white;
+    border-radius: 0 25px 25px 0;
+    padding: 8px;
+}
+.search-container input[type="search"]::placeholder {
+    color: #6c757d;
+}
+
+.btn-cart {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    font-size: 24px;
+    position: relative;
+}
+.btn-cart .fa-cart-shopping {
+    color: white;
+}
+.btn-cart .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #D10024;
+    color: white;
+    font-size: 12px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Cart{
+    z-index: 10000;
+    width:20%;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    float:right;
+}
+#Cart i{
+    margin:10px;
+    color: #E7EFF9;
+}
+#Cart a{
+    cursor: pointer;
+}
+#Cart p{
+    margin-top:100%;
+}
